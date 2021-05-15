@@ -5,15 +5,15 @@ import './students-table.style.css'
 const StudentsTable = (props) => {
     return (
     <div className="students-table">
-         <span className="name">
+         <span className = "name">
              {props.tipeDate.name}
          </span>
 
-         <span className="grade">
+         <span className = "grade">
             {props.tipeDate.grade}
          </span> 
 
-        <span className="gender">
+        <span className = "gender">
             {props.tipeDate.gender}
         </span>
          

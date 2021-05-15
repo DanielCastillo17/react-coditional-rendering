@@ -1,12 +1,40 @@
 .university-table {
-    width: 21%;
+    width: 45%;
     margin: 0 auto;
-    height: 1170px;
-    border: 1px solid green;
+    height: 1390px;
+    border: 2px solid turquoise;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sombra{
+    box-shadow: 0px 5px 15px 0px rgba(122,122,122,0.58);
+    background-color: var(--blanco);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.formulario{
+    box-shadow: 0px 5px 15px 0px rgba(122,122,122,0.58);
+    background-color: var(--blanco);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    float: left;
+}
+
+.formulario2{
+    box-shadow: 0px 5px 15px 0px rgba(122,122,122,0.58);
+    background-color: var(--blanco);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    float: right;
 }
 
 .titulo {
-    text-align: left ;
+    text-align: right ;
     margin-top: 0px;
     margin-left: 10px;
     margin-bottom: 0px;
@@ -20,5 +48,5 @@
 }
 
 .titulo3{
-    margin-left: 90px;
+    margin-left: 10px;
 }

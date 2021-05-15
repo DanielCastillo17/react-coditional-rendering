@@ -1,31 +1,10 @@
 .students-row{
-    width: 95%;
+    width: 75%;
     margin: 0 auto;
     height: 30px;
-    border: 2px solid brown;
+    border: 2px solid green;
     margin-top: 0px;
     margin-bottom: 10px;
-}
-
-.name {
-    text-align: left ;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-}
-
-.grade{
-    text-align: center ;
-    margin-top: 0px;
-    margin-left: 100px;
-    margin-bottom: 0px;    
-}
-
-.gender{
-    text-align: right ;
-    margin-top: 0px;
-    margin-left: 60px;
-    margin-bottom: 0px;    
 }
 
 .statuscourse{
@@ -33,14 +12,19 @@ color: red;
 }
 
 .imagen{
-width: 25px;
+width: 23px;
 float: right;
 }
 
+.name-value{
+    float: left ;
+    
+}
+
 .grade-value{
-    margin-left: 10px;
+    float: center ;
 }
 
 .gender-value{
-    float: right;
+    float: right ;
 }
